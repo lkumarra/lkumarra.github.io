@@ -1,208 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lavendra Kumar Rajput • SDET Portfolio</title>
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" />
-  <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    rel="stylesheet"
-  />
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/styles.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lavendra Kumar Rajput — Senior SDET · Agentic AI Test Automation</title>
+  <meta name="description" content="Senior SDET with 7.5+ years in test automation. Built an AI-powered auto-healing framework and reached 90% automation at Netomi using Claude Code and agentic AI.">
+  <meta name="keywords" content="Senior SDET, QA Automation Lead, Agentic AI, Claude Code, MCP, Self-healing tests, Playwright, Selenium, RestAssured, Test Automation">
+  <meta name="author" content="Lavendra Kumar Rajput">
+  <meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="Lavendra Kumar Rajput — Senior SDET">
+  <meta property="og:description" content="Quality, engineered. Intelligence, automated. Auto-healing test frameworks, agentic AI and 90% automation.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2026.09">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Lavendra Kumar Rajput","jobTitle":"Senior SDET","worksFor":{"@type":"Organization","name":"Netomi"},"address":{"@type":"PostalAddress","addressLocality":"Gurgaon","addressCountry":"IN"},"email":"mailto:Lavendra.rajputc1@gmail.com","sameAs":["https://github.com/lkumarra","https://www.linkedin.com/in/lavendra-kumar-rajput-112ab2106/"]}
+  </script>
 </head>
-
 <body>
-  <header class="navbar navbar-dark bg-dark fixed-top shadow">
-    <div class="container">
-      <a href="#" class="navbar-brand fw-bold">Lavendra Kumar Rajput</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mainMenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="brand" aria-label="Home"><span class="brand-mark">LR</span><span class="brand-name">Lavendra</span></a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#highlights">Highlights</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="pill pill-sm" href="assets/Lavendra_Kumar_Rajput_Resume.pdf" download>Résumé</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button>
       </div>
     </div>
   </header>
 
-  <section id="hero" class="vh-100 d-flex align-items-center justify-content-center text-center" style="background: url('images/hero-bg.jpg') center/cover no-repeat;">
-    <div class="text-white px-3">
-      <h1 class="display-4 fw-bold">Hi, I’m Lavendra</h1>
-      <p class="lead">Software Development Engineer in Test (SDET) passionate about building scalable, reliable automation frameworks.</p>
-      <a href="https://drive.google.com/drive/folders/17I4agtMF2ak2BIIZD0zKeA4LTNvE_qau?usp=sharing" class="btn btn-outline-light btn-lg mt-3">Download Resume</a>
-    </div>
-  </section>
-
-  <section id="about" class="py-5">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4 text-center mb-4">
-          <img src="https://raw.githubusercontent.com/lkumarra/lkumarra/master/lavendra.png" alt="Lavendra" class="rounded-circle img-fluid border shadow">
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="avatar reveal">
+          <img src="assets/profile.jpg" alt="Lavendra Kumar Rajput" width="128" height="128" onerror="this.remove()">
+          <span>LR</span>
         </div>
-        <div class="col-md-8">
-          <h2>About Me</h2>
-          <p>
-            I’m a dedicated SDET with a strong foundation in **test automation frameworks** (Selenium, RestAssured, Cucumber, Protractor) 
-            and hands-on experience in **functional, integration, and acceptance testing** across web, API, and mobile platforms.
-          </p>
-          <p>
-            With a collaborative spirit, I thrive in Agile environments—partnering early with development teams to prevent defects and deliver 
-            quality at speed. When I’m not coding, you’ll find me exploring photography, traveling to new places, or designing frameworks for real-world quality challenges.
-          </p>
+        <p class="eyebrow reveal">Senior SDET at Netomi · Gurgaon, India</p>
+        <h1 class="hero-title reveal">Quality, engineered.<br><span class="grad">Intelligence, automated.</span></h1>
+        <p class="hero-sub reveal">I’m Lavendra — I build test automation that scales and heals itself. 7.5+ years across UI, API and performance testing, now powered by agentic AI, Claude Code and MCP.</p>
+        <div class="hero-cta reveal">
+          <a class="pill" href="#contact">Get in touch</a>
+          <a class="link-arrow" href="assets/Lavendra_Kumar_Rajput_Resume.pdf" download>Download résumé <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="mb-4">Featured Projects</h2>
-      <div class="row g-4">
+    <!-- Stats -->
+    <section class="stats dark" aria-label="At a glance">
+      <div class="container stats-grid">
+        <div class="stat reveal"><div class="stat-num"><span data-count="90">0</span>%</div><p>test automation coverage at Netomi</p></div>
+        <div class="stat reveal"><div class="stat-num"><span data-count="7.5" data-decimals="1">0</span>+</div><p>years in quality engineering</p></div>
+        <div class="stat reveal"><div class="stat-num"><span data-count="100">0</span>%</div><p>REST API automation at Monotype</p></div>
+        <div class="stat reveal"><div class="stat-num"><span data-count="60">0</span>+</div><p>public automation repositories</p></div>
+      </div>
+    </section>
 
-        <!-- API Automation -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <img src="images/restassured.jfif" class="card-img-top" alt="API Automation">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">API Automation Framework</h5>
-              <p class="card-text flex-grow-1">Built on RestAssured & Java for end‑to‑end REST API test coverage.</p>
-              <a href="https://github.com/lkumarra/API_Automation" target="_blank" class="btn btn-primary">View on GitHub</a>
+    <!-- Highlights bento -->
+    <section class="section" id="highlights">
+      <div class="container">
+        <p class="kicker reveal">Highlights</p>
+        <h2 class="section-title reveal">AI-first quality engineering.<br><span class="muted">Built for how software ships now.</span></h2>
+
+        <div class="bento">
+          <article class="tile tile-hero dark-tile reveal">
+            <div class="tile-copy">
+              <span class="tile-icon"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg></span>
+              <h3>Auto-healing framework.</h3>
+              <p>Tests that fix themselves. Broken locators and failing steps are detected and repaired automatically — fewer flaky runs, far less maintenance.</p>
             </div>
-          </div>
-        </div>
-
-        <!-- Protractor POM -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <img src="images/protractor.jpg" class="card-img-top" alt="Protractor Page Object Model">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Protractor POM (TS)</h5>
-              <p class="card-text flex-grow-1">A clean Page Object Model framework built with Protractor & TypeScript.</p>
-              <a href="https://github.com/lkumarra/ProtractorPageObjectModel" target="_blank" class="btn btn-primary">View on GitHub</a>
+            <div class="heal" aria-hidden="true">
+              <div class="heal-bar"><i></i><i></i><i></i><span>checkout.spec.ts</span></div>
+              <pre class="heal-code"><code><span class="ln">12</span> <span class="k">await</span> page.<span class="f">click</span>(<span class="s broken">'#btn-submit-v1'</span>);
+<span class="ln">13</span> <span class="c heal-note">// ✦ locator not found — healing…</span>
+<span class="ln">14</span> <span class="k">await</span> page.<span class="f">getByRole</span>(<span class="s">'button'</span>, { name: <span class="s">'Place order'</span> }).<span class="f">click</span>();</code></pre>
+              <div class="heal-status"><span class="dot"></span><span class="st-fail">1 step failed</span><span class="st-ok">Healed · 42/42 passed</span></div>
             </div>
-          </div>
-        </div>
+          </article>
 
-        <!-- WebdriverIO POM -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <img src="images/webdriverIo.jpeg" class="card-img-top" alt="WebdriverIO POM">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">WebdriverIO POM (TS)</h5>
-              <p class="card-text flex-grow-1">Modern test suite using WebdriverIO & Page Object Model with TypeScript.</p>
-              <a href="https://github.com/lkumarra/WebDriver-IO" target="_blank" class="btn btn-primary">View on GitHub</a>
+          <article class="tile reveal">
+            <span class="tile-icon"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" x2="20" y1="19" y2="19"></line></svg></span>
+            <h3>Claude Code.</h3>
+            <p>An agentic coding partner that generates, refactors and reviews test scripts, page objects and API tests.</p>
+          </article>
+
+          <article class="tile tile-stat reveal">
+            <div class="big grad">90%</div>
+            <p>of the regression suite automated — faster, more confident releases.</p>
+          </article>
+
+          <article class="tile reveal">
+            <span class="tile-icon"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect width="8" height="8" x="3" y="3" rx="2"></rect><path d="M7 11v4a2 2 0 0 0 2 2h4"></path><rect width="8" height="8" x="13" y="13" rx="2"></rect></svg></span>
+            <h3>Agentic AI + MCP.</h3>
+            <p>LLM workflows with MCP servers for test-case generation, failure root-cause analysis and smart defect triage.</p>
+          </article>
+
+          <article class="tile tile-wide reveal">
+            <div>
+              <span class="tile-icon"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="6" x2="6" y1="3" y2="15"></line><circle cx="18" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><path d="M18 9a9 9 0 0 1-9 9"></path></svg></span>
+              <h3>Shipped through CI/CD.</h3>
+              <p>Every suite runs on every build, with reports teams actually read.</p>
             </div>
-          </div>
-        </div>
-
-        <!-- Selenium Python -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <img src="images/Selenium_Python.jpeg" class="card-img-top" alt="Selenium Python POM">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Selenium Python POM</h5>
-              <p class="card-text flex-grow-1">Efficient Python-based Page Object Model framework using Selenium.</p>
-              <a href="https://github.com/lkumarra/PythonSelenium" target="_blank" class="btn btn-primary">View on GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Selenium Java -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <img src="images/Selenium-WebDriver.png" class="card-img-top" alt="Selenium Java POM">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Selenium Java POM</h5>
-              <p class="card-text flex-grow-1">Java-driven Page Object Model using Selenium and TestNG.</p>
-              <a href="https://github.com/lkumarra/PageObjectExtended" target="_blank" class="btn btn-primary">View on GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Protractor BDD -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <img src="images/protarctor bdd.png" class="card-img-top" alt="Protractor BDD">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Protractor BDD Framework</h5>
-              <p class="card-text flex-grow-1">Behavior‑Driven framework using Protractor, Cucumber JS & TypeScript.</p>
-              <a href="https://github.com/lkumarra/ProtractorBDDFramework" target="_blank" class="btn btn-primary">View on GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- C# Selenium -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <img src="images/selenium-with-c-sharp-training.png" class="card-img-top" alt="Selenium C#">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Selenium .NET (C#)</h5>
-              <p class="card-text flex-grow-1">Selenium WebDriver framework using C# bindings.</p>
-              <a href="https://github.com/lkumarra/Selenium.NET" target="_blank" class="btn btn-primary">View on GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 text-center mt-4">
-          <a href="https://github.com/lkumarra" class="btn btn-outline-dark btn-lg" target="_blank">
-            View All Repositories <i class="fa fa-github ms-2"></i>
-          </a>
+            <ul class="logo-row">
+              <li>Jenkins</li><li>GitHub Actions</li><li>Docker</li><li>Kubernetes</li><li>AWS</li><li>Allure</li>
+            </ul>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="skills" class="py-5">
-    <div class="container">
-      <h2 class="mb-4">Skills & Technologies</h2>
-      <div class="row g-2">
-        <div class="col-6 col-md-3"><span class="badge bg-primary">Java</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-primary">Python</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-primary">TypeScript</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-success">Selenium</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-success">RestAssured</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-secondary">Cucumber</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-secondary">TestNG</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-info">Protractor</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-info">WebdriverIO</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-dark">Jenkins</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-dark">Docker</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-dark">Maven</span></div>
-        <div class="col-6 col-md-3"><span class="badge bg-dark">Git</span></div>
+    <!-- Skills -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <p class="kicker reveal">Skills</p>
+        <h2 class="section-title reveal">One toolkit.<br><span class="muted">Every layer of the stack.</span></h2>
+        <div class="segmented reveal" role="tablist" aria-label="Skill categories" id="seg">
+          <span class="seg-thumb" aria-hidden="true"></span><button class="seg-btn" role="tab" id="tab-ai" aria-controls="panel-ai" aria-selected="true" data-panel="ai">AI & Agents</button><button class="seg-btn" role="tab" id="tab-auto" aria-controls="panel-auto" aria-selected="false" data-panel="auto">Automation</button><button class="seg-btn" role="tab" id="tab-devops" aria-controls="panel-devops" aria-selected="false" data-panel="devops">DevOps & Cloud</button><button class="seg-btn" role="tab" id="tab-code" aria-controls="panel-code" aria-selected="false" data-panel="code">Languages & Data</button><button class="seg-btn" role="tab" id="tab-ways" aria-controls="panel-ways" aria-selected="false" data-panel="ways">Ways of working</button>
+        </div>
+        <div class="panels reveal"><div class="skill-panel" id="panel-ai" role="tabpanel" aria-labelledby="tab-ai"><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"></path><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"></path><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"></path><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"></path><path d="M3.477 10.896a4 4 0 0 1 .585-.396"></path><path d="M19.938 10.5a4 4 0 0 1 .585.396"></path><path d="M6 18a4 4 0 0 1-1.967-.516"></path><path d="M19.967 17.484A4 4 0 0 1 18 18"></path></svg>Agentic AI &amp; GenAI</h3><div class="chips"><span class="chip">Claude Code</span><span class="chip">Agentic AI Workflows</span><span class="chip">AI Agents</span><span class="chip">MCP Servers</span><span class="chip">Playwright MCP</span><span class="chip">LLMs (Claude, OpenAI GPT)</span><span class="chip">LangChain</span><span class="chip">RAG</span><span class="chip">Prompt Engineering</span><span class="chip">GitHub Copilot</span></div></div><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg>AI in Testing</h3><div class="chips"><span class="chip">Auto-Healing Automation</span><span class="chip">AI Test Generation</span><span class="chip">AI Failure Triage</span><span class="chip">Conversational AI Testing</span></div></div></div><div class="skill-panel" id="panel-auto" role="tabpanel" aria-labelledby="tab-auto" hidden><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="14" x="2" y="3" rx="2"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg>UI Automation</h3><div class="chips"><span class="chip">Playwright</span><span class="chip">Selenium WebDriver</span><span class="chip">Protractor</span><span class="chip">Cucumber (BDD)</span><span class="chip">TestNG</span><span class="chip">Pytest</span><span class="chip">POM</span></div></div><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.98h-5.99c-1.1 0-1.95.94-2.48 1.9A4 4 0 0 1 2 17c.01-.7.2-1.4.57-2"></path><path d="m6 17 3.13-5.78c.53-.97.1-2.18-.5-3.1a4 4 0 1 1 6.89-4.06"></path><path d="m12 6 3.13 5.73C15.66 12.7 16.9 13 18 13a4 4 0 0 1 0 8"></path></svg>API Testing</h3><div class="chips"><span class="chip">RestAssured</span><span class="chip">Playwright API</span><span class="chip">Karate</span><span class="chip">Postman</span><span class="chip">Python Requests</span><span class="chip">JSON Schema Validation</span></div></div><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m12 14 4-4"></path><path d="M3.34 19a10 10 0 1 1 17.32 0"></path></svg>Performance</h3><div class="chips"><span class="chip">Apache JMeter</span></div></div></div><div class="skill-panel" id="panel-devops" role="tabpanel" aria-labelledby="tab-devops" hidden><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z"></path><path d="M10 21.9V14L2.1 9.1"></path><path d="m10 14 11.9-6.9"></path><path d="M14 19.8v-8.1"></path><path d="M18 17.5V9.4"></path></svg>CI/CD &amp; Cloud</h3><div class="chips"><span class="chip">Jenkins</span><span class="chip">GitHub Actions</span><span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Selenium Grid</span><span class="chip">AWS (S3)</span><span class="chip">Git</span><span class="chip">Maven</span></div></div><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="m19 9-5 5-4-4-3 3"></path></svg>Observability &amp; Reporting</h3><div class="chips"><span class="chip">Kibana</span><span class="chip">OpenSearch</span><span class="chip">Grafana</span><span class="chip">Prometheus</span><span class="chip">Allure</span><span class="chip">ExtentReports</span><span class="chip">JIRA</span></div></div></div><div class="skill-panel" id="panel-code" role="tabpanel" aria-labelledby="tab-code" hidden><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>Languages</h3><div class="chips"><span class="chip">Java</span><span class="chip">TypeScript</span><span class="chip">JavaScript</span><span class="chip">Python</span><span class="chip">SQL</span></div></div><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5V19A9 3 0 0 0 21 19V5"></path><path d="M3 12A9 3 0 0 0 21 12"></path></svg>Databases</h3><div class="chips"><span class="chip">MySQL</span><span class="chip">MSSQL</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">Elasticsearch</span></div></div></div><div class="skill-panel" id="panel-ways" role="tabpanel" aria-labelledby="tab-ways" hidden><div class="skill-card"><h3><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"></path><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"></path><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"></path></svg>Practices</h3><div class="chips"><span class="chip">Test Strategy</span><span class="chip">Shift-Left Testing</span><span class="chip">Agile/Scrum</span><span class="chip">BDD</span><span class="chip">Root Cause Analysis</span><span class="chip">UAT</span><span class="chip">Mentoring</span></div></div></div></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="py-5 bg-light">
-    <div class="container text-center">
-      <h2>Contact Me</h2>
-      <p>Feel free to drop me a line—I'm always open to collaborations and quality-focused conversations.</p>
-      <form action="https://formspree.io/xeqrapbe" method="POST" class="row justify-content-center">
-        <div class="col-md-4 mb-2"><input type="email" name="email" class="form-control" placeholder="Your Email" required></div>
-        <div class="col-md-4 mb-2"><textarea name="message" class="form-control" rows="3" placeholder="Your Message" required></textarea></div>
-        <div class="col-md-2"><button class="btn btn-primary w-100">Send</button></div>
-      </form>
-      <div class="mt-4">
-        <a href="mailto:lavendra.rajputc1@gmail.com" class="text-decoration-none me-3"><i class="fa fa-envelope"></i> Email</a>
-        <a href="https://linkedin.com/in/lavendra-kumar-rajput-112ab2106" target="_blank" class="text-decoration-none"><i class="fa fa-linkedin"></i> LinkedIn</a>
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="kicker reveal">Experience</p>
+        <h2 class="section-title reveal">Seven teams.<br><span class="muted">One obsession with quality.</span></h2>
+        <ol class="timeline"><li class="job reveal">
+  <div class="job-when"><b>Nov 2025 – Present</b>Gurgaon, India</div>
+  <div><h3>Netomi<span class="badge">Current</span></h3><p class="role">Senior SDET</p>
+  
+  <ul><li>Drive quality engineering for Netomi’s <b>agentic AI customer-experience platform</b>, owning UI and API automation strategy across releases.</li><li>Architected an <b>AI-powered auto-healing test framework</b> that detects broken locators and failing steps and repairs them automatically, reducing flaky tests and maintenance effort.</li><li>Achieved <b>90% test automation coverage</b>, significantly cutting manual regression effort and accelerating release cycles.</li><li>Use <b>Claude Code</b> as an agentic coding assistant to generate, refactor and review test scripts, page objects and API tests.</li><li>Built <b>agentic AI workflows</b> combining LLMs and <b>MCP servers</b> for test-case generation, failure root-cause analysis and smart defect triage.</li><li>Validate LLM-driven conversational AI agent flows and run automated suites in CI/CD for continuous feedback on every build.</li></ul></div></li>
+<li class="job reveal">
+  <div class="job-when"><b>Dec 2024 – Oct 2025</b>Noida, India</div>
+  <div><h3>Celsior Technology</h3><p class="role">Module Lead QA</p>
+  
+  <ul><li>Led end-to-end QA automation across UI and API using <b>Playwright (TypeScript)</b>; owned test strategy, framework design and code reviews.</li><li>Mentored QA team members on framework best practices, automation standards and AI-assisted development.</li><li>Used <b>Playwright MCP Server with GitHub Copilot</b> to generate and maintain automation scripts through agentic workflows.</li><li>Automated test data generation and technical documentation using <b>OpenAI APIs / ChatGPT</b>.</li></ul></div></li>
+<li class="job reveal">
+  <div class="job-when"><b>Aug 2024 – Dec 2024</b>Noida, India</div>
+  <div><h3>TELUS Digital</h3><p class="role">Senior Quality Assurance Analyst</p>
+  
+  <ul><li>Automated REST API test suites using <b>Playwright (TypeScript)</b> and maintained Jenkins CI pipelines.</li><li>Debugged production incidents through log analysis in <b>Kibana / OpenSearch</b>, driving root cause analysis with developers.</li><li>Conducted UAT demos with business stakeholders to secure release sign-off.</li></ul></div></li>
+<li class="job reveal more">
+  <div class="job-when"><b>Apr 2023 – Aug 2024</b>Noida, India</div>
+  <div><h3>Monotype Solutions</h3><p class="role">Senior SDET</p>
+  <button class="toggle" aria-expanded="false">Details <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></button>
+  <ul><li>Delivered <b>100% automation coverage for REST APIs</b> using Playwright (TypeScript).</li><li>Designed <b>JMeter</b> performance test scripts to benchmark API throughput and response times.</li><li>Integrated automated suites into Jenkins CI/CD pipelines for continuous regression testing.</li></ul></div></li>
+<li class="job reveal more">
+  <div class="job-when"><b>Dec 2021 – Apr 2023</b>Gurgaon, India</div>
+  <div><h3>Deutsche Telekom Digital Labs</h3><p class="role">SDET</p>
+  <button class="toggle" aria-expanded="false">Details <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></button>
+  <ul><li>Developed UI automation with <b>Selenium (Java)</b> and API suites with <b>RestAssured and Karate</b>.</li><li>Implemented BDD using Cucumber; tracked defects in JIRA and ran suites via Jenkins.</li></ul></div></li>
+<li class="job reveal more">
+  <div class="job-when"><b>Apr 2021 – Nov 2021</b>Gurgaon, India</div>
+  <div><h3>SOTI Inc.</h3><p class="role">SDET</p>
+  <button class="toggle" aria-expanded="false">Details <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></button>
+  <ul><li>Automated APIs using Java HTTP Client with SQL-based backend validations; led feature demos for stakeholders.</li></ul></div></li>
+<li class="job reveal more">
+  <div class="job-when"><b>Mar 2019 – Apr 2021</b>Noida, India</div>
+  <div><h3>Capgemini</h3><p class="role">Senior Software Engineer</p>
+  <button class="toggle" aria-expanded="false">Details <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></button>
+  <ul><li>Built UI and API test suites with Protractor, Selenium and RestAssured; developed internal utilities to speed up automation.</li></ul></div></li></ol>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="py-3 bg-dark text-white text-center">
-    <small>© 2025 Lavendra Kumar Rajput • Crafted with ❤️ & Bootstrap</small>
+    <!-- Projects -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <p class="kicker reveal">Open source</p>
+        <h2 class="section-title reveal">Frameworks I’ve built.<br><span class="muted">Free to explore on GitHub.</span></h2>
+        <div class="projects"><article class="project reveal">
+  <div class="project-art" style="background:linear-gradient(135deg,#2b5876,#4e4376)"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="14" x="2" y="3" rx="2"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg></div>
+  <div class="project-body"><h3>Playwright Automation Framework</h3><span class="tech">TypeScript, Playwright, Node.js</span><p>Unified UI + API framework with Page Object Model, custom fixtures, typed API client, parallel cross-browser runs, CI retries and HTML reports.</p>
+  <a class="link-arrow" href="https://github.com/lkumarra/playwright-automation" target="_blank" rel="noopener">View on GitHub <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></a></div></article>
+<article class="project reveal">
+  <div class="project-art" style="background:linear-gradient(135deg,#0f9b8e,#1d4f91)"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></div>
+  <div class="project-body"><h3>Selenium Test Automation Framework</h3><span class="tech">Java, Selenium, TestNG, Docker</span><p>Cross-browser POM framework with Selenium Grid, retry analyzer, Excel data-driven tests, PostgreSQL and AWS S3 integration, ExtentReports, Jenkins and Docker.</p>
+  <a class="link-arrow" href="https://github.com/lkumarra/Selenium_Framework" target="_blank" rel="noopener">View on GitHub <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></a></div></article>
+<article class="project reveal">
+  <div class="project-art" style="background:linear-gradient(135deg,#f7971e,#e0457b)"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.98h-5.99c-1.1 0-1.95.94-2.48 1.9A4 4 0 0 1 2 17c.01-.7.2-1.4.57-2"></path><path d="m6 17 3.13-5.78c.53-.97.1-2.18-.5-3.1a4 4 0 1 1 6.89-4.06"></path><path d="m12 6 3.13 5.73C15.66 12.7 16.9 13 18 13a4 4 0 0 1 0 8"></path></svg></div>
+  <div class="project-body"><h3>Library API Test Framework</h3><span class="tech">Python, Pytest, Requests</span><p>Generates API test cases automatically from HAR files; multi-environment YAML config, session management and HTML reports.</p>
+  <a class="link-arrow" href="https://github.com/lkumarra/library-api-test-framework" target="_blank" rel="noopener">View on GitHub <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></a></div></article>
+<article class="project reveal">
+  <div class="project-art" style="background:linear-gradient(135deg,#7b61ff,#0071e3)"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5"></path><circle cx="13" cy="12" r="2"></circle><path d="M18 19c-2.8 0-5-2.2-5-5v8"></path><circle cx="20" cy="19" r="2"></circle></svg></div>
+  <div class="project-body"><h3>BDD &amp; Multi-Language Frameworks</h3><span class="tech">Protractor, Cucumber, Python, C#</span><p>Protractor BDD and POM, BestBuy API BDD (RestAssured + Cucumber), Python Selenium (Pytest) and Selenium .NET frameworks.</p>
+  <a class="link-arrow" href="https://github.com/lkumarra" target="_blank" rel="noopener">View on GitHub <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></a></div></article></div>
+        <div class="center reveal"><a class="link-arrow" href="https://github.com/lkumarra" target="_blank" rel="noopener">See all 60+ repositories <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"></path></svg></a></div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section edu">
+      <div class="container edu-inner reveal">
+        <span class="tile-icon"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg></span>
+        <div>
+          <p class="kicker">Education</p>
+          <h3>B.Tech, Electronics &amp; Communication Engineering</h3>
+          <p class="muted">Raj Kumar Goel Institute of Technology (AKTU), Ghaziabad · 2018</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section dark contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-copy">
+          <p class="kicker reveal">Contact</p>
+          <h2 class="section-title reveal">Let’s build something<br><span class="grad">reliable.</span></h2>
+          <p class="lead reveal">Open to Senior SDET, QA Automation Lead and AI-in-testing roles. I usually reply within a day.</p>
+          <ul class="contact-list reveal">
+            <li><a href="mailto:Lavendra.rajputc1@gmail.com"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg><span>Lavendra.rajputc1@gmail.com</span></a></li>
+            <li><a href="tel:+917982787511"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>+91 79827 87511</span></a></li>
+            <li><a href="https://www.linkedin.com/in/lavendra-kumar-rajput-112ab2106/" target="_blank" rel="noopener"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg><span>LinkedIn</span></a></li>
+            <li><a href="https://github.com/lkumarra" target="_blank" rel="noopener"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg><span>github.com/lkumarra</span></a></li>
+          </ul>
+        </div>
+        <form class="form reveal" id="contactForm" name="contact" method="POST" action="https://formspree.io/xeqrapbe" data-endpoint="https://formspree.io/xeqrapbe">
+          <input type="hidden" name="_subject" value="New message from lkumarra.github.io">
+          <p class="hp"><label>Company <input name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+          <label class="field"><input name="name" required placeholder=" " autocomplete="name"><span>Name</span></label>
+          <label class="field"><input name="email" type="email" required placeholder=" " autocomplete="email"><span>Email</span></label>
+          <label class="field"><textarea name="message" rows="4" required placeholder=" "></textarea><span>Message</span></label>
+          <button class="pill pill-block" type="submit">Send message <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg></button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Copyright © <span id="year">2026</span> Lavendra Kumar Rajput. Designed and built in Delhi NCR.</p>
+      <nav aria-label="Footer"><a href="https://github.com/lkumarra" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/lavendra-kumar-rajput-112ab2106/" target="_blank" rel="noopener">LinkedIn</a><a href="assets/Lavendra_Kumar_Rajput_Resume.pdf" download>Résumé</a></nav>
+    </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js?v=2026.09" defer></script>
 </body>
-
 </html>
